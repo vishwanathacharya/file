@@ -1,0 +1,30 @@
+AWS CodeDeploy is a fully managed deployment service provided by Amazon Web Services (AWS). It is designed to automate the deployment of applications to various compute services, making it easier to release new features and updates without downtime. Here are key points about AWS CodeDeploy:
+
+1. **Deployment Automation:**
+   - CodeDeploy automates the deployment process, allowing you to deploy applications across Amazon EC2 instances, on-premises servers, AWS Lambda functions, or even to an Amazon ECS service.
+
+2. **Multi-Environment Support:**
+   - CodeDeploy supports multiple deployment environments, enabling you to deploy the same application to development, testing, and production environments.
+
+3. **Flexible Deployment Strategies:**
+   - It provides various deployment strategies, such as in-place deployments, blue-green deployments, and canary deployments, allowing you to choose the strategy that best fits your application's needs.
+
+4. **Integration with Other AWS Services:**
+   - CodeDeploy integrates with other AWS services, such as Amazon EC2, AWS Lambda, Amazon ECS, and more. This integration allows you to deploy applications to different compute services seamlessly.
+
+5. **Rollback Support:**
+   - CodeDeploy includes rollback capabilities, allowing you to easily revert to a previous version of your application if issues are detected during the deployment process.
+
+6. **Centralized Control:**
+   - It provides a centralized dashboard for monitoring and managing deployments. This dashboard gives you visibility into the deployment status, errors, and other relevant information.
+
+7. **Customization and Extensibility:**
+   - CodeDeploy allows you to customize and extend the deployment process by using hooks, scripts, and configuration files. This flexibility enables you to tailor deployments to specific requirements.
+
+8. **Agent-Based Model:**
+   - CodeDeploy uses an agent-based model to deploy and monitor applications on instances. The agent is responsible for pulling deployment packages and executing deployment scripts on the instances.
+
+9. **Support for Multiple Platforms:**
+   - CodeDeploy supports deployments for applications developed in various programming languages and platforms.
+
+Overall, AWS CodeDeploy simplifies the deployment process, reduces downtime, and provides a reliable and consistent way to release software updates across different environments.
